@@ -1,0 +1,40 @@
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# PHPStorm and other IDEs
+/.idea/
+/*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+
+# Cache and session
+/cache/
+/sessions/
+
+# Environment files
+.env
+.env.*
+
+# Build and coverage
+/build/
+/coverage/
+
+# Node modules (if using frontend)
+/node_modules/
+
+# Misc
+*.swp
+*.bak
+*.orig
+*.sass-cache
