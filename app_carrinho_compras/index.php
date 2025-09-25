@@ -3,9 +3,17 @@
     require __DIR__."/vendor/autoload.php";
 
     use App\CarrinhoCompra;
+    use App\CarrinhoCompraV2;
+    use App\Item;
+    use App\Pedido;
+    use App\EmailService;
 
     $carrinho1 = new CarrinhoCompra();
+    echo"<br/>";
     print_r($carrinho1->showItems());
+
+    $carrinho2 = new CarrinhoCompraV2();
+    print_r($carrinho2->getItems());
 
     echo 'Valor total: ' .$carrinho1-> totalPrice();
 
