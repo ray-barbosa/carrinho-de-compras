@@ -6,56 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+
 </head>
 <body>
     <!-- Conteúdo do carrinho de compras vai aqui -->
      
-    <div>
+    <div id="cart-container">
         <section>
-        <h3>Seu carrinho tem 5 itens</h1>
+            <h3>Seu carrinho tem 5 itens</h3>
         </section>
         <div id="cart-items">
-            <!-- Itens do carrinho serão listados aqui -->
-            <div class="cart-item">
-                <h3>Produto 1</h3>
-                <img src="images/product-image-cadeira.jpg" alt="Imagem do Produto 1">
-                <p>Quantidade: 2</p>
-                <p>Preço: R$ 100,00</p>
-                <button><img src="assets/icons/Plus.svg" alt=""></button> <button><img src="assets/icons/Minus.svg" alt=""></button>
+            <!-- Produto 1 -->
+            <p>Produto 1</p>
+            <img src="images/product-image-cadeira.jpg" alt="Imagem do Produto 1">
+            <p>Preço: R$ 100,00</p>
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <button class="minus"><img src="assets/icons/Minus.svg" alt="minus-button"></button>
+                2
+                <button class="plus"><img src="assets/icons/Plus.svg" alt="plus-button"></button>
             </div>
-            <div class="cart-item">
-                <h3>Produto 2</h3>
-                <img src="images/product-image-headset.jpg" alt="Imagem do Produto 2">
-                <p>Quantidade: 1</p>
-                <p>Preço: R$ 50,00</p>
-                <button><img src="assets/icons/Plus.svg" alt=""></button> <button><img src="assets/icons/Minus.svg" alt=""></button>
+
+            <!-- Produto 2 -->
+            <p>Produto 2</p>
+            <img src="images/product-image-headset.jpg" alt="Imagem do Produto 2">
+            <p>Preço: R$ 50,00</p>
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <button class="minus"><img src="assets/icons/Minus.svg" alt="minus-button"></button>
+                1
+                <button class="plus"><img src="assets/icons/Plus.svg" alt="plus-button"></button>
             </div>
-            <div class="cart-item">
-                <h3>Produto 3</h3>
-                <img src="images/product-image-monitor.jpg" alt="Imagem do Produto 3">
-                <p>Quantidade: 2</p>
-                <p>Preço: R$ 50,00</p>
-                <button><img src="assets/icons/Plus.svg" alt=""></button> <button><img src="assets/icons/Minus.svg" alt=""></button>
-             </div>
-        <div class="cart-item">
-            <h3>Produto 4</h3>
+
+            <!-- Produto 3 -->
+            <p>Produto 3</p>
+            <img src="images/product-image-monitor.jpg" alt="Imagem do Produto 3">
+            <p>Preço: R$ 50,00</p>
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <button class="minus"><img src="assets/icons/Minus.svg" alt="minus-button"></button>
+                1
+                <button class="plus"><img src="assets/icons/Plus.svg" alt="plus-button"></button>
+            </div>
+
+            <!-- Produto 4 -->
+            <p>Produto 4</p>
             <img src="images/product-image-teclado.jpg" alt="Imagem do Produto 4">
-            <p>Quantidade: 1</p>
             <p>Preço: R$ 30,00</p>
-            <button><img src="assets/icons/Plus.svg" alt=""></button> <button><img src="assets/icons/Minus.svg" alt=""></button>
-        </div>
-        <div class="cart-item">
-            <h3>Produto 5</h3>
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <button class="minus"><img src="assets/icons/Minus.svg" alt="minus-button"></button>
+                1
+                <button class="plus"><img src="assets/icons/Plus.svg" alt="plus-button"></button>
+            </div>
+
+            <!-- Produto 5 -->
+            <p>Produto 5</p>
             <img src="images/product-image-patinho.png" alt="Imagem do Produto 5 ">
-            <p>Quantidade: 1</p>
             <p>Preço: R$ 20,00</p>
-            <button><img src="assets/icons/Plus.svg" alt=""></button> <button><img src="assets/icons/Minus.svg" alt=""></button>
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <button class="minus"><img src="assets/icons/Minus.svg" alt="minus-button"></button>
+                1
+                <button class="plus"><img src="assets/icons/Plus.svg" alt="plus-button"></button>
+            </div>
         </div>
+        <section>
+            <h2>Total: R$ 250,00</h2>
+            <p class="discount"><img src="assets/icons/Tag.svg" alt="discount-tag">Adicionar cupom</p>
+        </section>
+        <button id="checkout-button">Finalizar Compra</button>
     </div>
-    <section>
-        <h2>Total: R$ 250,00</h2>
-        <p>Adicionar cupom</p>
-    </section>
-    <button id="checkout-button">Finalizar Compra</button>
 </body>
 </html>
