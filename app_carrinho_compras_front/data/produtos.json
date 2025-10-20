@@ -1,0 +1,32 @@
+[
+    {
+        "titulo": "Monitor Gamer Curvo 49 DQHD, 240Hz, 1ms, HDMI e...",
+        "preco": 8599.90,
+        "imagem": "images/product-image-monitor.jpg",
+        "quantidade": 0
+    },
+    {
+        "titulo": "Cadeira Gamer RGB - Preta com Iluminacao LED",
+        "preco": 959.90,
+        "imagem": "images/product-image-cadeira.jpg",
+        "quantidade": 0
+    },
+    {
+        "titulo": "Teclado Gamer Mecânico Low Profile RGB AW510K 580",
+        "preco": 1002.00,
+        "imagem": "images/product-image-teclado.jpg",
+        "quantidade": 0
+    },
+    {
+        "titulo": "Headset Gamer RGB Preto com Microfone e USB",
+        "preco": 99.90,
+        "imagem": "images/product-image-headset.jpg",
+        "quantidade": 0
+    },
+    {
+        "titulo": "Pato de Borracha Amarelo - Brinquedo para Banho",
+        "preco": 19.90,
+        "imagem": "images/product-image-patinho.png",
+        "quantidade": 0
+    }
+]
