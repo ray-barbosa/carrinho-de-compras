@@ -9,7 +9,6 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
         </style>
-
     </head>
     <body>
         <!-- Conteúdo do carrinho de compras vai aqui -->
@@ -25,7 +24,7 @@
                     
                     <img class="produtoCarrinho" src="images/product-image-cadeira.jpg" alt="Imagem do Produto 1">
                     <p>Produto 1</p>
-                    <p>R$ 100,00</p>
+                    <p id="valor-produto1">R$ 100,00</p>
                     <div class="botoes-carrinho">
                         <button class="minus"><img src="assets/icons/Minus.svg" alt="minus-button"></button>
                         2
@@ -38,7 +37,7 @@
                     
                     <img class="produtoCarrinho" src="images/product-image-headset.jpg" alt="Imagem do Produto 2">
                     <p>Produto 2</p>
-                    <p>R$ 50,00</p>
+                    <p id="valor-produto-2">R$ 50,00</p>
                     <div class="botoes-carrinho">
                         <button class="minus"><img src="assets/icons/Minus.svg" alt="minus-button"></button>
                         1
@@ -51,7 +50,7 @@
                     
                     <img class="produtoCarrinho" src="images/product-image-monitor.jpg" alt="Imagem do Produto 3">
                     <p>Produto 3</p>
-                    <p>R$ 50,00</p>
+                    <p id="valor-produto-3">R$ 50,00</p>
                     <div class="botoes-carrinho">
                         <button class="minus"><img src="assets/icons/Minus.svg" alt="minus-button"></button>
                         1
@@ -64,7 +63,7 @@
                     
                     <img class="produtoCarrinho" src="images/product-image-teclado.jpg" alt="Imagem do Produto 4">
                     <p>Produto 4</p>
-                    <p>$ 30,00</p>
+                    <p id="valor-produto-4">$ 30,00</p>
                     <div class="produtoCarrinho" class="botoes-carrinho">
                         <button class="minus"><img src="assets/icons/Minus.svg" alt="minus-button"></button> 
                         1 
@@ -77,7 +76,7 @@
                     
                     <img class="produtoCarrinho" src="images/product-image-patinho.png" alt="Imagem do Produto 5 ">
                     <p>Produto 5</p>
-                    <p>R$ 20,00</p>
+                    <p id="valor-produto-5">R$ 20,00</p>
                     <div class="botoes-carrinho">
                         <button class="minus"><img src="assets/icons/Minus.svg" alt="minus-button"></button>
                         1
@@ -86,9 +85,9 @@
                 </div>
             </div>
             <div class="container-checkout">
-                <section>
-                    <h2>Total: R$ 250,00</h2>
-                    <p class="discount"><img src="assets/icons/Tag.svg" alt="discount-tag">Adicionar cupom</p>
+                <section class="section-total">
+                    <h2 id="valor-total-carrinho" >Total:    R$ 250,00</h2>
+                    <p id="validar-desconto" class="discount"><img class="discount-tag" src="assets/icons/Tag.svg" alt="discount-tag"> Adicionar cupom</p>
                 </section>
                 <button id="checkout-button">Finalizar Compra</button>
             </div>

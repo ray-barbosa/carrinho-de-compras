@@ -16,11 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
         botao.addEventListener('click', removerDoCarrinho);
     });
 });
-
-
-
-
 //adicionar logica para o botao minus - mudar cor do botao e diminuir a quantidade no carrinho
+
 
 
 
